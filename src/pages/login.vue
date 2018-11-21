@@ -32,10 +32,18 @@ export default {
   },
   methods: {
     login () {
+      // this.$auth.signInWithEmailAndPassword(this.user.email, this.user.password).then(() => {
+      //   window.location = '#/main'
+      // }).catch(err => {
+      //   this.$q.dialog({
+      //     title: 'Erro',
+      //     message: 'Erro ao iniciar sessão, email ou senha inválidos! ' + err
+      //   })
+      // })
       if (this.user.email === 'diegomp100@gmail.com') {
-        this.$router.push('/main/1')
-      } else if (this.user.email === 'fulano@gmail.com') {
         this.$router.push('/main')
+      } else if (this.user.email === 'fulano@gmail.com') {
+        this.$router.push('/main2')
       } else {
         this.$q.dialog({
           title: 'Erro',

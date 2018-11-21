@@ -2,7 +2,7 @@
 div
   .row.q-mt-lg
     .col-12.col-sm-8.col-md-5.q-mb-sm.q-mr-sm
-      q-item(@click.native="$router.push('/main/editSolicitation/')")
+      q-item(@click.native="$router.push('/editSolicitation')")
         q-card.bg-dark.shadow-5.window-width.text-white
           q-card-media.q-pa-xl
             .col-12.col-md-12.q-mb-lg.text-center
@@ -18,7 +18,7 @@ div
               .col-6
                 |Prioridade
               .col-6.text-right
-                |12/12/2015 10:00
+                |20/11/2018 10:00
 </template>
 <style>
 </style>

@@ -95,7 +95,7 @@ export default {
   data () {
     return {
       leftDrawerOpen: this.$q.platform.is.desktop,
-      grupo: 'admin'
+      grupo: ''
     }
   },
   created () {
