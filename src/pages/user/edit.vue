@@ -8,7 +8,7 @@ div.bg-warning.marginBg
           .col-10.col-md-10.q-mb-sm.q-mr-lg
             q-input(v-model="user.username" stack-label="Nome")
           .col-10.col-md-10.q-mb-sm.q-mr-lg
-            q-input(v-model="user.lastName" stack-label="Sobrenome")
+            q-input(v-model="user.lastname" stack-label="Sobrenome")
           .col-10.col-md-10.q-mb-sm.q-mr-lg
             q-input(v-model="user.email" stack-label="E-mail" type="email")
           .col-10.col-md-10.q-mb-sm.q-mr-lg
@@ -46,10 +46,10 @@ export default {
     return {
       user: {
         username: 'Diego',
-        lastname: 'diego',
-        email: '',
-        password: '',
-        check: false
+        lastname: 'Nascimento',
+        email: 'diegomp100@gmail.com',
+        password: '***',
+        check: true
       }
     }
   },

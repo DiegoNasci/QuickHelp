@@ -139,6 +139,7 @@ export default {
       //     message: 'Nome é obrigatório!'
       //   })
       // }
+      this.$router.push('/main/listDefect')
     },
     cancel () {
       this.$router.push('/main/listDefect')

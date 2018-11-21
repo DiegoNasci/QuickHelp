@@ -4,11 +4,7 @@ div
     .row.justify-between.bd-bottom
       div
         .col-8.col-sm-6.q-ml-md.q-mb-sm
-          .q-subheading Usuários>Listar>1
-      div
-        .col-8.col-sm-6.q-mr-md
-          .q-subheading Atalho
-            q-toggle.q-pl-sm(v-model="check")
+          .q-subheading Defeitos>Listar
     .flex.flex-center.q-ml-lg.q-mr-lg
       q-table.inp-col.q-mt-xl.flex.flex-center(:data="defects" :columns="columns" row-key="name")
         q-tr(slot="body" slot-scope="props" :props="props"  @click.native="rowClick(props.row)" class="cursor-pointer")

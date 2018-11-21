@@ -74,7 +74,8 @@ export default {
         field: 'pass',
         sortable: true,
         classes: 'my-class',
-        style: 'width: 500px'
+        style: 'width: 500px',
+        type: 'password'
       }
     ],
     users: []
